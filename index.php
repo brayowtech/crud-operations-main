@@ -57,7 +57,7 @@ endif;
                 <td>Ksh <?php echo htmlspecialchars($row['Salary'] )?></td>
                 <td><?php echo htmlspecialchars($row['Gender']) ?></td>
                 <td>
-                    <!-- Edit -->
+                    <!-- Edit the edit record-->
                     <a href="update.php?id=<?php echo htmlspecialchars($row['id'])?>" 
                     data-bs-toggle="tooltip" data-bs-title="Edit Record"><i class="fa-regular fa-pen-to-square"></i></a>
 
